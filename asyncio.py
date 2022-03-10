@@ -2,8 +2,7 @@ import time
 import asyncio
 
 def download_page(url) :
-    time.sleep(1) # 페이지를 다운로드
-    #html 분석
+    time.sleep(1) 
     print("complete download:", url)
     
 def main() :
@@ -19,8 +18,7 @@ print(f"finish at {time.strftime('%X')}")
 
 
 async def download_page(url) :
-    await asyncio.sleep(1) # 페이지를 다운로드
-    #html 분석
+    await asyncio.sleep(1) 
     print("complete download:", url)
     
 async def main() :
